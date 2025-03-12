@@ -1,3 +1,9 @@
+# About this Fork
+
+This repo exists to modernize the excellent work of René Klačan @reneklacan.
+Beyond that, I wanted a simpler dictionary interface because for a project I did not need word counts
+or bigrams. So I will be resetting the API version and changing the package name to avoid confusion.
+
 [![Documentation](https://docs.rs/symspell/badge.svg)](https://docs.rs/symspell)
 
 # SymSpell

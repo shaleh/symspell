@@ -1,8 +1,8 @@
 [package]
-name = "symspell"
-version = "0.4.3"
+name = "symspell-shaleh"
+version = "0.1.0"
 license = "MIT"
-authors = ["Rene Klacan <rene.klacan@gmail.com>"]
+authors = ["Rene Klacan <rene.klacan@gmail.com>", "Sean 'Shaleh' Perry <shalehperry@gmail.com>"]
 keywords = ["spellcheck"]
 description = "Spelling correction & Fuzzy search"
 homepage = "https://github.com/reneklacan/symspell"

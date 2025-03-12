@@ -1,7 +1,7 @@
-extern crate symspell;
+extern crate symspell_shaleh;
 
 use std::time::Instant;
-use symspell::{SymSpell, UnicodeStringStrategy, Verbosity};
+use symspell_shaleh::{SymSpell, UnicodeStringStrategy, Verbosity};
 
 fn main() {
     let mut symspell: SymSpell<UnicodeStringStrategy> = SymSpell::default();

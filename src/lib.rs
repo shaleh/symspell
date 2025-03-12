@@ -5,7 +5,7 @@ Spelling correction & Fuzzy search based on Symmetric Delete spelling correction
 # Basic Example
 
 ```
-use symspell::{SymSpell, AsciiStringStrategy, Verbosity};
+use symspell_shaleh::{SymSpell, AsciiStringStrategy, Verbosity};
 
 let mut symspell: SymSpell<AsciiStringStrategy> = SymSpell::default();
 

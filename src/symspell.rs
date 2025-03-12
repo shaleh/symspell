@@ -203,7 +203,7 @@ impl<T: StringStrategy> SymSpell<T> {
     /// # Examples
     ///
     /// ```
-    /// use symspell::{SymSpell, AsciiStringStrategy, Verbosity};
+    /// use symspell_shaleh::{SymSpell, AsciiStringStrategy, Verbosity};
     ///
     /// let mut symspell: SymSpell<AsciiStringStrategy> = SymSpell::default();
     /// symspell.load_dictionary("data/frequency_dictionary_en_82_765.txt", 0, 1, " ");
@@ -421,7 +421,7 @@ impl<T: StringStrategy> SymSpell<T> {
     /// # Examples
     ///
     /// ```
-    /// use symspell::{SymSpell, AsciiStringStrategy};
+    /// use symspell_shaleh::{SymSpell, AsciiStringStrategy};
     ///
     /// let mut symspell: SymSpell<AsciiStringStrategy> = SymSpell::default();
     /// symspell.load_dictionary("data/frequency_dictionary_en_82_765.txt", 0, 1, " ");
@@ -666,7 +666,7 @@ impl<T: StringStrategy> SymSpell<T> {
     /// # Examples
     ///
     /// ```
-    /// use symspell::{SymSpell, UnicodeStringStrategy, Verbosity};
+    /// use symspell_shaleh::{SymSpell, UnicodeStringStrategy, Verbosity};
     ///
     /// let mut symspell: SymSpell<UnicodeStringStrategy> = SymSpell::default();
     /// symspell.load_dictionary("data/frequency_dictionary_en_82_765.txt", 0, 1, " ");
